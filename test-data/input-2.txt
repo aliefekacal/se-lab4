@@ -1,0 +1,5 @@
+# TC2: SINGLE mode alternates between the two stores
+GT4500,2,0,2,0
+TORPEDO,SINGLE  # 1st fire: primary
+TORPEDO,SINGLE  # 2nd fire: secondary
+TORPEDO,SINGLE  # 3rd fire: primary again

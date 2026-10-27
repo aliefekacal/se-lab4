@@ -1,0 +1,4 @@
+# TC12: SINGLE mode fails when both stores become empty after primary was fired last
+GT4500,1,0,0,0
+TORPEDO,SINGLE  # 1st fire: primary (depletes it to 0), wasPrimaryFiredLast=true
+TORPEDO,SINGLE  # 2nd fire: secondary empty, fallback primary also empty -> FAIL

@@ -1,0 +1,3 @@
+# TC5: SINGLE mode does not try the other store if the fired one reports failure
+GT4500,1,1,1,0
+TORPEDO,SINGLE  # primary is tried first and always fails (rate=1); secondary must not be tried
