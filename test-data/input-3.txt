@@ -1,0 +1,4 @@
+# TC3: SINGLE mode fires the other store if the next-in-line one is empty
+GT4500,2,0,0,0
+TORPEDO,SINGLE  # 1st fire: primary (secondary is empty from the start)
+TORPEDO,SINGLE  # 2nd fire: secondary is next in line but empty -> falls back to primary

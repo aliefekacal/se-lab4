@@ -1,0 +1,3 @@
+# TC9: ALL mode succeeds if at least one store succeeds
+GT4500,1,1,1,0
+TORPEDO,ALL  # primary always fails, secondary never fails -> overall SUCCESS

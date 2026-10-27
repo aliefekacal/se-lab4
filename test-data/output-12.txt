@@ -1,0 +1,3 @@
+SUCCESS  # <- GT4500
+SUCCESS  # <- TORPEDO (1st fire, primary)
+FAIL  # <- TORPEDO (2nd fire, both stores empty)
